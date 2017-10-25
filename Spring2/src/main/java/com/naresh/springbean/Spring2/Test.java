@@ -10,5 +10,7 @@ public static void main (String[] args)
 	NotificationService notificationService = context.getBean(NotificationService.class);
 	notificationService.sendNotification("naresh@gmail", "delivered");
 	context.close();
+	//addding a few lines of comments
+	//these are the lines
 }
 }
